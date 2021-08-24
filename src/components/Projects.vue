@@ -48,6 +48,7 @@
                     <span class="text-sm font-medium bg-blue-100 py-1 m-2 px-2 rounded text-blue-700 align-middle inline-block">SQL</span>
                     <span class="text-sm font-medium bg-blue-100 py-1 m-2 px-2 rounded text-blue-700 align-middle inline-block">MySql</span>
                     <span class="text-sm font-medium bg-blue-100 py-1 m-2 px-2 rounded text-blue-700 align-middle inline-block">MongoDB</span>
+                    <span class="text-sm font-medium bg-blue-100 py-1 m-2 px-2 rounded text-blue-700 align-middle inline-block">ORM</span>
                   </p>
                 </div>
               </div>
