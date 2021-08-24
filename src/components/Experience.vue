@@ -1,21 +1,21 @@
 <template>
-  <div class="col-span-12 md:border-solid md:border-l md:border-black md:border-opacity-25 h-full pb-12 md:col-span-10">
+  <div class="col-span-12 lg:border-solid lg:border-l lg:border-black lg:border-opacity-25 h-full pb-12 lg:col-span-10">
     <div class="px-4 ml-4 pt-4">
       <form action="#" class="flex flex-col space-y-8">
 
         <div>
-          <h3 class="text-2xl border-b-2 border-white font-semibold">Education</h3>
+          <h3 class="text-2xl border-b-2 border-white text-white font-semibold">Education</h3>
           <hr>
         </div>
 
         <div class="container mx-auto ">
-          <a target="_blank" href="https://www.fpmoz.sum.ba" class="relative w-5/6 mx-auto transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 rounded-lg flex flex-col md:flex-row items-center md:shadow-xl md:h-72 mx-2">
-            <div  class="z-0 order-1 md:order-2 relative w-full ml-2.5 md:w-2/5 h-80 md:h-full overflow-hidden rounded-lg md:rounded-none md:rounded-r-lg">
-              <div class="mx-auto inset-0 w-full h-full object-fit bg-blue-400 bg-opacity-30 bg-contain bg-bottom bg-center bg-cover bg-no-repeat" :style="{backgroundImage: 'url(../src/assets/sum.png)'}"></div>
+          <a target="_blank" href="https://www.fpmoz.sum.ba" class="relative w-5/6 mx-auto transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 rounded-lg flex flex-col lg:flex-row items-center shadow-2xl lg:h-72 mx-2">
+            <div  class="z-0 order-1 lg:order-2 relative w-full ml-2.5 lg:w-2/5 h-80 lg:h-full overflow-hidden rounded-lg lg:rounded-none lg:rounded-r-lg">
+              <div class="mx-auto inset-0 w-full h-full object-fit bg-white bg-contain bg-bottom bg-center bg-cover bg-no-repeat" :style="{backgroundImage: 'url(../src/assets/sum.png)'}"></div>
             </div>
-            <div class="z-10 order-2 text-white md:order-1 w-full h-full md:w-3/5 flex items-center">
-              <div class="min-w-full bg-indigo-500 p-8 md:pr-18 md:pl-14 mx-2 md:mx-0 h-full bg-white rounded-lg md:rounded-none md:rounded-l-lg shadow-xl md:shadow-none">
-                <div class="flex flex-col space-y-4 md:space-y-0 md:flex-row md:space-x-4">
+            <div class="z-10 order-2 text-white lg:order-1 w-full h-full lg:w-3/5 flex items-center">
+              <div class="min-w-full bg-gradient-to-r from-indigo-400 to-indigo-600 p-8 lg:pr-18 lg:pl-14 mx-2 lg:mx-0 h-full bg-white rounded-lg lg:rounded-none lg:rounded-l-lg shadow-2xl lg:shadow-none">
+                <div class="flex flex-col space-y-4 lg:space-y-0 lg:flex-row lg:space-x-4">
                   <div class="form-item w-full">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="h-5 w-5 inline-block m-2 bi bi-building" viewBox="0 0 16 16">
                       <path fill-rule="evenodd" d="M14.763.075A.5.5 0 0 1 15 .5v15a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5V14h-1v1.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V10a.5.5 0 0 1 .342-.474L6 7.64V4.5a.5.5 0 0 1 .276-.447l8-4a.5.5 0 0 1 .487.022zM6 8.694 1 10.36V15h5V8.694zM7 15h2v-1.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5V15h2V1.309l-7 3.5V15z"/>
@@ -33,7 +33,7 @@
                     <input type="text" value="Computer Science" class="w-full appearance-none text-black rounded shadow py-1 px-2 mr-2 focus:outline-none focus:shadow-outline focus:border-blue-200" disabled>
                   </div>
                 </div>
-                <div class="flex flex-col space-y-4 md:space-y-0 md:flex-row md:space-x-4">
+                <div class="flex flex-col space-y-4 lg:space-y-0 lg:flex-row lg:space-x-4">
                   <div class="form-item w-full">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 inline-block m-2" viewBox="0 0 20 20" fill="currentColor">
                       <path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd" />
@@ -49,7 +49,7 @@
                     <input type="text" value="Bosnia & Herzegovina" class="w-full appearance-none text-black rounded shadow py-1 px-2 mr-2 focus:outline-none focus:shadow-outline focus:border-blue-200 " disabled>
                   </div>
                 </div>
-                <div class="flex flex-col space-y-4 md:space-y-0 md:flex-row md:space-x-4">
+                <div class="flex flex-col space-y-4 lg:space-y-0 lg:flex-row lg:space-x-4">
 
                   <div class="form-item w-full">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 inline-block m-2" viewBox="0 0 20 20" fill="currentColor">
@@ -76,13 +76,13 @@
         </div>
 
         <div class="container mx-auto ">
-          <a target="_blank" href="https://www.fpmoz.sum.ba" class="relative w-5/6 mx-auto transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 rounded-lg flex flex-col md:flex-row items-center md:shadow-xl md:h-72 mx-2">
-            <div  class="z-0 order-1 md:order-2 relative w-full ml-2.5 md:w-2/5 h-80 md:h-full overflow-hidden rounded-lg md:rounded-none md:rounded-r-lg">
-              <div class="mx-auto inset-0 w-full h-full object-fit  bg-blue-400 bg-opacity-30 bg-cover bg-bottom bg-center bg-contain bg-no-repeat" :style="{backgroundImage: 'url(../src/assets/sum.png)'}"></div>
+          <a target="_blank" href="https://www.fpmoz.sum.ba" class=" w-5/6 mx-auto transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 rounded-lg flex flex-col lg:flex-row items-center shadow-2xl lg:h-72 mx-2">
+            <div  class="z-0 order-1 lg:order-2 relative w-full ml-2.5 lg:w-2/5 h-80 lg:h-full overflow-hidden rounded-lg lg:rounded-none lg:rounded-r-lg">
+              <div class="mx-auto inset-0 w-full h-full object-fit bg-white bg-cover bg-bottom bg-center bg-contain bg-no-repeat" :style="{backgroundImage: 'url(../src/assets/sum.png)'}"></div>
             </div>
-            <div class="z-10 order-2 text-white md:order-1 w-full h-full md:w-3/5 flex items-center">
-              <div class="min-w-full bg-blue-500 p-8 md:pr-18 md:pl-14 mx-2 md:mx-0 h-full bg-white rounded-lg md:rounded-none md:rounded-l-lg shadow-xl md:shadow-none">
-                <div class="flex flex-col space-y-4 md:space-y-0 md:flex-row md:space-x-4">
+            <div class="z-10 order-2 text-white lg:order-1 w-full h-full lg:w-3/5 flex items-center">
+              <div class="min-w-full bg-gradient-to-r from-blue-400 to-blue-600 p-8 lg:pr-18 lg:pl-14 mx-2 lg:mx-0 h-full bg-white rounded-lg lg:rounded-none lg:rounded-l-lg shadow-2xl lg:shadow-none">
+                <div class="flex flex-col space-y-4 lg:space-y-0 lg:flex-row lg:space-x-4">
                   <div class="form-item w-full">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="h-5 w-5 inline-block m-2 bi bi-building" viewBox="0 0 16 16">
                       <path fill-rule="evenodd" d="M14.763.075A.5.5 0 0 1 15 .5v15a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5V14h-1v1.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V10a.5.5 0 0 1 .342-.474L6 7.64V4.5a.5.5 0 0 1 .276-.447l8-4a.5.5 0 0 1 .487.022zM6 8.694 1 10.36V15h5V8.694zM7 15h2v-1.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5V15h2V1.309l-7 3.5V15z"/>
@@ -100,7 +100,7 @@
                     <input type="text" value="Computer Science" class="w-full appearance-none text-black rounded shadow py-1 px-2 mr-2 focus:outline-none focus:shadow-outline focus:border-blue-200" disabled>
                   </div>
                 </div>
-                <div class="flex flex-col space-y-4 md:space-y-0 md:flex-row md:space-x-4">
+                <div class="flex flex-col space-y-4 lg:space-y-0 lg:flex-row lg:space-x-4">
                   <div class="form-item w-full">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 inline-block m-2" viewBox="0 0 20 20" fill="currentColor">
                       <path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd" />
@@ -116,7 +116,7 @@
                     <input type="text" value="Bosnia & Herzegovina" class="w-full appearance-none text-black rounded shadow py-1 px-2 mr-2 focus:outline-none focus:shadow-outline focus:border-blue-200 " disabled>
                   </div>
                 </div>
-                <div class="flex flex-col space-y-4 md:space-y-0 md:flex-row md:space-x-4">
+                <div class="flex flex-col space-y-4 lg:space-y-0 lg:flex-row lg:space-x-4">
 
                   <div class="form-item w-full">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 inline-block m-2" viewBox="0 0 20 20" fill="currentColor">
@@ -142,18 +142,18 @@
           </a>
         </div>
         <div>
-          <h3 class="text-2xl border-b-2 border-white font-semibold">Work Expirience</h3>
+          <h3 class="text-2xl border-b-2 border-white text-white font-semibold">Work Expirience</h3>
           <hr>
         </div>
 
         <div class="container mx-auto ">
-          <a target="_blank" href="https://www.qsdbih.com" class="relative w-4/6 mx-auto transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 rounded-lg flex flex-col md:flex-row items-center md:shadow-xl md:h-72 mx-2">
-            <div  class="z-0 order-1 relative w-full ml-2.5 md:w-2/5 h-80 md:h-full overflow-hidden rounded-lg md:rounded-none md:rounded-r-lg">
-              <div class="mx-auto inset-0 w-full h-full object-fit rounded-xl bg-green-400 bg-opacity-30 bg-cover bg-bottom bg-center bg-contain bg-no-repeat" :style="{backgroundImage: 'url(../src/assets/qsd.png)'}"></div>
+          <a target="_blank" href="https://www.qsdbih.com" class="relative shadow-2xl lg:bg-white w-5/6 mx-auto transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 rounded-xl flex flex-col lg:flex-row items-center lg:h-72 mx-2">
+            <div  class="z-0 order-1 relative w-full ml-2.5 lg:w-2/5 bg-white h-80 lg:h-full overflow-hidden rounded-lg lg:rounded-none lg:rounded-r-lg">
+              <div class="mx-auto inset-0 w-full h-full object-fit rounded-xl bg-center bg-contain bg-no-repeat" :style="{backgroundImage: 'url(../src/assets/qsd.png)'}"></div>
             </div>
-            <div class="z-10 order-2 text-white md:order-1 w-full h-full md:w-3/5 flex items-center">
-              <div class="min-w-full bg-green-500 p-8 md:pr-18 md:pl-14 mx-2 md:mx-0 h-full bg-white rounded-lg md:rounded-none md:rounded-l-lg shadow-xl md:shadow-none">
-                <div class="flex flex-col space-y-4 md:space-y-0 md:flex-row md:space-x-4">
+            <div class="z-10 order-2 text-white lg:order-1 w-full h-full lg:w-3/5 flex items-center">
+              <div class="min-w-full bg-gradient-to-r from-green-600 to-green-400 p-8 lg:pr-18 lg:pl-14 mx-2 lg:mx-0 h-full bg-white rounded-xl shadow-2xl">
+                <div class="flex flex-col space-y-4 lg:space-y-0 lg:flex-row lg:space-x-4">
                   <div class="form-item w-full">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="h-5 w-5 inline-block m-2 bi bi-building" viewBox="0 0 16 16">
                       <path fill-rule="evenodd" d="M14.763.075A.5.5 0 0 1 15 .5v15a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5V14h-1v1.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V10a.5.5 0 0 1 .342-.474L6 7.64V4.5a.5.5 0 0 1 .276-.447l8-4a.5.5 0 0 1 .487.022zM6 8.694 1 10.36V15h5V8.694zM7 15h2v-1.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5V15h2V1.309l-7 3.5V15z"/>
@@ -171,7 +171,7 @@
                     <input type="text" value="Backend Developer" class="w-full appearance-none text-black rounded shadow py-1 px-2 mr-2 focus:outline-none focus:shadow-outline focus:border-blue-200" disabled>
                   </div>
                 </div>
-                <div class="flex flex-col space-y-4 md:space-y-0 md:flex-row md:space-x-4">
+                <div class="flex flex-col space-y-4 lg:space-y-0 lg:flex-row lg:space-x-4">
                   <div class="form-item w-full">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 inline-block m-2" viewBox="0 0 20 20" fill="currentColor">
                       <path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd" />
@@ -187,7 +187,7 @@
                     <input type="text" value="Bosnia & Herzegovina" class="w-full appearance-none text-black rounded shadow py-1 px-2 mr-2 focus:outline-none focus:shadow-outline focus:border-blue-200 " disabled>
                   </div>
                 </div>
-                <div class="flex flex-col space-y-4 md:space-y-0 md:flex-row md:space-x-4">
+                <div class="flex flex-col space-y-4 lg:space-y-0 lg:flex-row lg:space-x-4">
 
                   <div class="form-item w-full">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 inline-block m-2" viewBox="0 0 20 20" fill="currentColor">
@@ -213,13 +213,13 @@
           </a>
         </div>
         <div class="container mx-auto ">
-          <a href="#" class="relative w-4/6 mx-auto transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 rounded-lg flex flex-col md:flex-row items-center md:shadow-xl md:h-72 mx-2">
-            <div  class="z-0 order-1 relative w-full ml-2.5 md:w-2/5 h-64 md:h-80 md:h-full overflow-hidden rounded-lg md:rounded-none md:rounded-r-lg">
-              <div class="mx-auto inset-0 md:w-full h-full object-fit rounded-xl bg-blue-500  bg-contain bg-bottom bg-center bg-cover bg-no-repeat" :style="{backgroundImage: 'url(../src/assets/portrait.jpg)'}"></div>
+          <a href="#" class="relative bg-gradient-to-l from-purple-900 to-yellow-900 shadow-2xl w-5/6 mx-auto transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 rounded-lg flex flex-col lg:flex-row items-center lg:h-72 mx-2">
+            <div  class="z-0 order-1 relative rounded-xl w-full ml-2.5 lg:w-2/5 h-64  lg:h-80 lg:h-full overflow-hidden">
+              <div class="mx-auto inset-0 lg:w-full h-full object-fit rounded-xl bg-contain bg-center bg-no-repeat" :style="{backgroundImage: 'url(../src/assets/card_portrait.png)'}"></div>
             </div>
-            <div class="z-10 order-2 text-white md:order-1 w-full h-full md:w-3/5 flex items-center">
-              <div class="min-w-full bg-blue-900 p-8 md:pr-18 md:pl-14 mx-2 md:mx-0 h-full bg-white rounded-lg md:rounded-none md:rounded-l-lg shadow-xl md:shadow-none">
-                <div class="flex flex-col space-y-4 md:space-y-0 md:flex-row md:space-x-4">
+            <div class="z-10 order-2 rounded-xl text-white bg-gradient-to-r ffrom-purple-900 to-yellow-900 lg:order-1 w-full h-full lg:w-3/5 flex items-center">
+              <div class="min-w-full p-8 lg:pr-18 lg:pl-14 mx-2 lg:mx-0 h-full rounded-lg lg:rounded-none lg:rounded-l-lg shadow-2xl lg:shadow-none">
+                <div class="flex flex-col space-y-4 lg:space-y-0 lg:flex-row lg:space-x-4">
                   <div class="form-item w-full">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 inline-block m-2" viewBox="0 0 20 20" fill="currentColor">
                       <path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clip-rule="evenodd" />
@@ -236,7 +236,7 @@
                     <input type="text" value="Full-Stack Web Developer" class="w-full appearance-none text-black rounded shadow py-1 px-2 mr-2 focus:outline-none focus:shadow-outline focus:border-blue-200" disabled>
                   </div>
                 </div>
-                <div class="flex flex-col space-y-4 md:space-y-0 md:flex-row md:space-x-4">
+                <div class="flex flex-col space-y-4 lg:space-y-0 lg:flex-row lg:space-x-4">
                   <div class="form-item w-full">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 inline-block m-2" viewBox="0 0 20 20" fill="currentColor">
                       <path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd" />
@@ -252,7 +252,7 @@
                     <input type="text" value="Bosnia & Herzegovina" class="w-full appearance-none text-black rounded shadow py-1 px-2 mr-2 focus:outline-none focus:shadow-outline focus:border-blue-200 " disabled>
                   </div>
                 </div>
-                <div class="flex flex-col space-y-4 md:space-y-0 md:flex-row md:space-x-4">
+                <div class="flex flex-col space-y-4 lg:space-y-0 lg:flex-row lg:space-x-4">
 
                   <div class="form-item w-full">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 inline-block m-2" viewBox="0 0 20 20" fill="currentColor">

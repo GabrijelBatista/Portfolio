@@ -2,18 +2,18 @@
   <div class="col-span-12 md:border-solid md:border-l md:border-black md:border-opacity-25 h-full pb-12 md:col-span-10">
     <div class="px-4 ml-4 pt-4">
       <div>
-        <h3 class="text-2xl border-b-2 border-white font-semibold">Attachments</h3>
+        <h3 class="text-2xl border-b-2 border-white text-white  font-semibold">Attachments</h3>
         <hr>
       </div>
         <div class="container text-center p-6 mx-auto">
-          <div @click="expand=true; active='bachelor.jpg'" class="pt-6 pb-2 w-72 md:w-96 transition cursor-pointer duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 rounded-lg bg-gray-800">
+          <div @click="expand=true; active='bachelor.jpg'" class="pt-6 pb-2 w-72 md:w-96 transition cursor-pointer duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 rounded-lg bg-gradient-to-r shadow-2xl from-gray-400 to-gray-600">
             <img src="/src/assets/bachelor.jpg" class="border-indigo-500 border-2 w-64 md:w-80 mx-auto" alt="">
-            <div class="text-xl md:text-3xl text-white font-serif font-extrabold font-italic mx-auto my-4">Bachelor's degree</div>
+            <div class="text-xl md:text-3xl  font-serif italic mx-auto my-4">Bachelor's degree</div>
           </div>
         </div>
     </div>
     <transition name="fade"  mode="out-in">
-      <div v-show="expand" class="fixed z-50 top-0 left-0 right-0 bottom-0 w-full h-screen overflow-hidden bg-gray-700 bg-opacity-90 flex flex-col items-center justify-center">
+      <div v-show="expand" class="fixed z-50 top-0 left-0 right-0 bottom-0 w-full h-screen overflow-hidden bg-gray-900 bg-opacity-90 flex flex-col items-center justify-center">
         <button @click="expand=false"><svg xmlns="http://www.w3.org/2000/svg" class="right-0 transition cursor-pointer duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 top-0 mt-2 mr-2 absolute h-10 w-10" fill="none" viewBox="0 0 24 24" stroke="white">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
         </svg></button>
