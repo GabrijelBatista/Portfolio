@@ -2,7 +2,7 @@
   <div class="h-screen flex items-center w-screen bg-gradient-to-r mx-auto from-gray-900 via-green-900 to-indigo-900 justify-center">
     <div class="text-white text-center text-2xl bg-black bg-opacity-50 h-screen w-screen font-serif italic">
       <router-link @click="passEvent" to="/basic-information">
-        <img class="h-1/4 cursor-pointer lg:h-1/3 rounded-full bg-gradient-to-r from-red-900 via-indigo-900 mb-16 to-yellow-900 border-2 md:absolute md:right-20 mt-16 mx-auto md:top-1/3 lg:top-1/4" src="/src/assets/card_portrait.png">
+        <img class="h-1/4 cursor-pointer lg:h-1/3 rounded-full bg-gradient-to-r from-red-900 via-indigo-900 mb-5 to-yellow-900 border-2 md:absolute md:right-20 mt-5 mx-auto md:top-1/3 lg:top-1/4" src="/src/assets/card_portrait.png">
       </router-link>
       <div class="md:absolute mx-auto md:top-1/3 md:w-1/3 w-5/6 md:left-1/4 ">
         <div class="text-lg md:text-lg mx-auto mb-10 md:mb-20 md:text-xl font-serif italic text-white">

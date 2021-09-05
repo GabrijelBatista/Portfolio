@@ -82,9 +82,7 @@
     <div class="px-4 pt-4">
       <form action="#" class="flex flex-col space-y-8">
         <div class="ml-4 text-white ">
-          <h3 class="text-2xl border-white border-b-2 font-semibold">My Projects</h3>
-          <hr>
-          <strong>My Projects </strong> section implies some of the projects that I made solely from scratch, projects that I own.
+          <h3 class="text-2xl border-white border-b-2 font-semibold">Latest Projects</h3>
           <hr>
         </div>
         <div class="flex flex-wrap ml-5 -mb-10 -mt-4">
@@ -330,35 +328,6 @@
           </a>
         </div>
 
-      </form>
-    </div>
-    <div class="px-4 pt-4">
-      <form action="#" class="flex flex-col space-y-8">
-        <div class="text-white  ml-4">
-          <h3 class="text-2xl border-b-2 border-white font-semibold">Other Projects</h3>
-          <hr>
-          <strong>Other Projects </strong> section implies some of the projects that I worked on within a team or for a client and similar.
-          <hr>
-        </div>
-        <a href="https://app.socciio.co.uk/" target="_blank" class="transition duration-500 ml-9 ease-in-out transform hover:-translate-y-1 hover:scale-105 w-5/6 md:mx-auto lg:flex">
-          <div class="h-48 lg:h-auto lg:w-96 flex-none bg-contain bg-purple-700 rounded-xl text-center bg-center bg-no-repeat overflow-hidden" style="background-image: url('http://localhost:3000/src/assets/socciio.png')" title="Woman holding a mug">
-          </div>
-          <div class="border-r border-b border-l border-grey-light lg:border-l-0 lg:border-t rounded-xl lg:border-grey-light bg-gradient-to-r from-gray-300 to-gray-100 p-4 flex flex-col justify-between leading-normal">
-            <div class="mb-8">
-              <p class="text-sm text-grey-dark flex items-center">
-                <span class="text-sm font-medium bg-indigo-100 py-1 px-2 m-2 rounded text-indigo-500 align-middle inline-block">PHP</span>
-                <span class="text-sm font-medium bg-indigo-100 py-1 px-2 m-2 rounded text-indigo-500 align-middle inline-block">JavaScript</span>
-              </p>
-              <div class="text-black font-bold text-xl mb-2">SOCCIIO</div>
-              <p class="text-grey-darker text-base">Socciio is web application focused on Real-Estates renting across United Kingdom. This web application implies huge number of properties that are acquired with help of different API providers, detailed search filtering options, Local Housing Allowance rate for all properties and much more...</p>
-            </div>
-            <div class="flex items-center">
-              <div class="text-sm">
-                <span class="text-blue-700">Visit: <span class="inline-block underline">https://app.socciio.co.uk</span></span>
-              </div>
-            </div>
-          </div>
-        </a>
       </form>
     </div>
   </div>
